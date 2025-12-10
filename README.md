@@ -2,10 +2,10 @@
 © 2025 Danny Ko. All rights reserved.
 Reflection Intelligence (RI) is released under the CC BY 4.0 License.
 
-📌 VERSION HISTORY
-v1.0 — Reflection Intelligence (Initial Whitepaper)
+📜 VERSION HISTORY
+📌v1.0 — Reflection Intelligence (Initial Whitepaper)
   A foundational proposal introducing RI as a structured framework for reverse inference, reflective reasoning, and assumption transparency.
-v1.1 — Expanded Architecture & Formal Model
+📌v1.1 — Expanded Architecture & Formal Model
   Adds PRP (Pre-Reasoning Protocol), constraint principles, formal operators (ℛ, 𝒜, ℱ), and RIM for evaluating reasoning quality.
 
 -------------------------------------------------------------------------------------------------------------------------------------------
