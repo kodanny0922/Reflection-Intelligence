@@ -1,3 +1,12 @@
+Reflection Intelligence (RI) is a metacognitive framework designed to enhance the reasoning 
+capabilities of large language models by introducing a structured post-inference stage. Instead 
+of relying solely on a single forward pass, RI enables a model to examine its own reasoning, 
+identify weaknesses, analyze structural issues, and regenerate improved outputs through a 
+deliberate reflective loop. 
+The core innovation of RI is its ability to transform one-shot inference into an iterative reasoning 
+process. By enabling a model to “think about its own thinking,” RI enhances coherence, stability, 
+and intellectual rigor in AI reasoning. 
+
 📜 COPYRIGHT
 © 2025 Danny Ko. All rights reserved.
 Reflection Intelligence (RI) is released under the CC BY 4.0 License.
