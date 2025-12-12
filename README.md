@@ -1,6 +1,9 @@
 📌whitepaper/ Reflection Intelligence Whitepaper
+
 📌SPEC/ Reflection Intelligence Specification 
+
 📌doc/ other relative documents
+
 
 📜 Content:
 
