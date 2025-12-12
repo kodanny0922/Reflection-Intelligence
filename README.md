@@ -1,3 +1,8 @@
+📌whitepaper/ Reflection Intelligence Whitepaper
+📌SPEC/ Reflection Intelligence Specification 
+📌doc/ other relative documents
+
+📜 Content
 Reflection Intelligence (RI) is a metacognitive framework designed to enhance the reasoning 
 capabilities of large language models by introducing a structured post-inference stage. Instead 
 of relying solely on a single forward pass, RI enables a model to examine its own reasoning, 
@@ -17,8 +22,6 @@ Reflection Intelligence (RI) is an original reasoning framework and intellectual
 Unauthorized use, reproduction, or misrepresentation of RI concepts without attribution is prohibited.
 © 2025 Danny Ko. All rights reserved.
 
-📌whitepaper/ Reflection Intelligence Whitepaper
-📌SPEC/ Reflection Intelligence Specification 
-📌docu/
+
 
 
