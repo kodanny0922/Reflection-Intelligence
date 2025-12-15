@@ -1,53 +1,129 @@
 # Reflection Intelligence (RI)
 
-Reflection Intelligence (RI) is a governance framework for constrained AI reflection, designed to manage risk, uncertainty, and failure through structured authority control and safe termination mechanisms.
+**Reflection Intelligence (RI)** is a governance-oriented framework designed to manage
+high-risk, ambiguous, or failure-prone AI interactions by introducing a structured
+reflection layer that operates independently from primary task execution.
 
+RI does not attempt to make AI “more correct”.
+Instead, it focuses on **what the system should do when correctness cannot be guaranteed**.
 
-This repository contains the public conceptual whitepaper of Reflection Intelligence (RI).
-Core specifications, governance mechanisms, and operational models are intentionally not
-publicly released at this stage.
+---
 
+## What Problem Does RI Address?
 
+Most AI safety and alignment systems focus on improving prediction accuracy:
+- Better classifiers
+- Better prompt filtering
+- Better policy enforcement
 
-This repository contains the core documents of Reflection Intelligence (RI).
+RI addresses a different class of failure:
 
-| RI File       | Function & Description                                                                                                                                                     |
-| ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **RIW v1.0**  | A high-level whitepaper explaining the motivation, philosophy, and governance rationale of Reflection Intelligence for external audiences.                                 |
-| **RIS v1.0**  | Defines the foundational theory, scope, and core principles of Reflection Intelligence as a risk governance layer rather than a decision-making system.                    |
-| **RIS v2.0**  | Specifies operational governance logic, reflection activation triggers, uncertainty-based escalation, and system-level constraints for real-world and high-risk use cases. |
-| **BRAM v1.0** | Defines the baseline reflection authority state, outlining what reflection is permitted under normal operating conditions.                                                 |
-| **RBAM v1.0** | Defines restricted reflection authority states when elevated risk, uncertainty, or governance thresholds are met.                                                          |
-| **UGRO v1.0** | Serves as the unified reference for governance profiles and output behavior across different operational modes (e.g. Audit-Only, Human-in-the-Loop, Minimal Compliance).   |
-| **RFSAP v1.0** | Defines the fail-safe and safe-abort pathways used to halt, downgrade, or terminate reflection and output to prevent harm or uncontrolled escalation.                      |
+> **What happens when the AI’s own risk judgment is uncertain or wrong?**
 
+In such cases, relying solely on AI confidence becomes a systemic risk.
+RI introduces a governance layer that activates under uncertainty itself.
 
+---
 
-## Core Document Flow Chart
+## Core Principles
 
-```mermaid
-flowchart TD
-    RIW[RIW v1.0 Whitepaper]
+RI is built on five core principles:
 
-    RIS1[RIS v1.0 Foundation]
-    RIS2[RIS v2.0 Operational Governance]
+1. **Uncertainty is a Risk Signal**  
+   Lack of confidence is treated as a trigger condition, not a neutral state.
 
-    BRAM[BRAM Baseline Authority]
-    RBAM[RBAM Restricted Authority]
+2. **Reverse-Safety Logic (Fail-Safe Design)**  
+   The system escalates by default unless low risk is explicitly confirmed.
 
-    UGRO[UGRO Governance and Output Control]
-    RFSAP[RFSAP Safe Abort and Failsafe]
+3. **Reflection Over Reaction**  
+   RI constrains *output authority and behavior*, not internal reasoning.
 
-    RIW --> RIS1
-    RIS1 --> RIS2
+4. **Graduated Intervention**  
+   Reflection intensity scales with ambiguity, avoiding both silence and overreach.
 
-    RIS2 --> BRAM
-    RIS2 --> RBAM
+5. **Human-Comprehensible Governance**  
+   All decisions must be explainable after the fact.
 
-    BRAM --> UGRO
-    RBAM --> UGRO
+---
 
-    UGRO --> RFSAP
-    RBAM --> RFSAP
+## What RI Is (and Is Not)
 
+### RI Is:
+- A **governance framework**
+- A **reflection and constraint layer**
+- A **second-order safety mechanism**
+- Designed for **high-stakes or ambiguous contexts**
 
+### RI Is Not:
+- A content moderation system
+- A classifier replacement
+- A prompt engineering trick
+- A guarantee of correctness
+
+---
+
+## System Architecture Overview
+
+RI is composed of modular documents, each with a distinct responsibility:
+
+| Component | Description |
+|--------|-------------|
+| RIS | Reflection Intelligence Specification – core principles and activation logic |
+| RBAM / BRAM | Authority and decision-boundary models |
+| UGRO | Unified Governance & Output Rules |
+| RFSAP / SDCD | Post-event review, audit, and remediation |
+| RIW | Whitepaper and external-facing theory |
+
+This separation ensures clarity, auditability, and extensibility.
+
+---
+
+## Activation Logic (High-Level)
+
+RI may activate when:
+- Risk signals are ambiguous
+- User intent cannot be confidently classified
+- The cost of failure is high
+- The system detects internal uncertainty
+
+Activation does **not** imply danger —  
+it implies **the need for constrained, reflective output**.
+
+---
+
+## Design Philosophy
+
+RI borrows concepts from:
+- Aviation fail-safe systems
+- Financial risk escalation models
+- Safety-critical engineering
+- Governance-first system design
+
+Rather than optimizing for speed or confidence, RI optimizes for **containment, clarity, and accountability**.
+
+---
+
+## Intended Use Cases
+
+- AI systems in safety-sensitive environments
+- Research and governance exploration
+- Experimental AI control architectures
+- Reflection-aware conversational agents
+
+---
+
+## Status
+
+Current state: **Stable core architecture**  
+Development focus: Testing, documentation, and controlled expansion
+
+This repository prioritizes **clarity over completeness**.
+
+---
+
+## Disclaimer
+
+Reflection Intelligence is a conceptual and experimental framework.
+It does not claim regulatory compliance or real-world safety guarantees.
+
+Use responsibly, critically, and transparently.
