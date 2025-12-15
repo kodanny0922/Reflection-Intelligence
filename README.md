@@ -2,6 +2,13 @@
 
 Reflection Intelligence (RI) is a governance framework for constrained AI reflection, designed to manage risk, uncertainty, and failure through structured authority control and safe termination mechanisms.
 
+
+This repository contains the public conceptual whitepaper of Reflection Intelligence (RI).
+Core specifications, governance mechanisms, and operational models are intentionally not
+publicly released at this stage.
+
+
+
 This repository contains the core documents of Reflection Intelligence (RI).
 
 | RI File       | Function & Description                                                                                                                                                     |
