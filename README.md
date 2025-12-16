@@ -35,8 +35,6 @@
  ##🧭  RI檔案分層四大類 RORE, governance , specification , whitepaper
 
 ```text
-│ 
-│ 
 ├─ core
 │  ├─ RI-TD.txt
 │  ├─ RI-RBAM.txt
