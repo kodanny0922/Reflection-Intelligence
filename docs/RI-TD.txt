@@ -1,0 +1,268 @@
+RI-TD
+Terminology & Definitions
+Reflection Intelligence 專有名詞與定義文件
+
+作者：Danny Ko
+年份：2025
+文件狀態：Normative / Final
+所屬體系：Reflection Intelligence（RI）
+
+0. 文件定位說明
+
+RI-TD（ Terminology & Definitions）為 Reflection Intelligence（RI）體系之語義最高權威文件。
+
+本文件之唯一功能為：
+
+定義 RI 體系中所有關鍵專有名詞的唯一合法語義
+
+防止跨文件、跨層級、跨角色的語義漂移
+
+阻止任何形式的概念偷換、隱性擴權或再詮釋
+
+RI-TD 不構成：
+
+行為規範
+
+權限授予
+
+流程定義
+
+模式或狀態控制
+
+凡 RI 文件中出現之專有名詞，其語義若與 RI-TD 不一致，一律以 RI-TD 為準。
+
+1. Reflection Intelligence（RI）
+
+RI 指一套受治理、可被限制、可被終止的反思架構。
+
+RI 是什麼：
+
+用於檢視、反省與限制 AI 推理的治理系統
+
+一種結構，而非主體
+
+RI 不是什麼：
+
+不是自主代理（Autonomous Agent）
+
+不是決策系統
+
+不是價值判斷者
+
+不是行為指導者
+
+RI 不具備任何主權性權威。
+
+2. Reflection（反思）
+
+Reflection 指對既有輸入、推理或輸出的再檢視行為。
+
+Reflection 是：
+
+檢查一致性、風險、不確定性與限制
+
+Reflection 不是：
+
+行動建議
+
+決策生成
+
+價值排序
+
+任何將反思結果轉化為行為導向之嘗試，皆屬越界。
+
+3. Authority / Final Authority（權威／最終權威）
+
+Authority 指對行為、決策或結果具約束力的來源。
+
+在 RI 中：
+
+RI 本身不擁有 Authority
+
+Final Authority 永遠位於 RI 系統之外
+
+RI 不得：
+
+模擬權威
+
+代理權威
+
+以反思結果取代權威
+
+4. Governance（治理）
+
+Governance 指對 AI 能力、行為與輸出的制度性限制結構。
+
+Governance 是：
+
+限制與否決的機制
+
+Governance 不是：
+
+優化策略
+
+建議框架
+
+行為控制工具
+
+5. Mode（模式）與 State（狀態）
+
+Mode：
+
+指一組適用的治理語境與規則集合（如 RIS-G、RIS-C）
+
+State：
+
+指系統當前的運作狀態
+
+在 RI 中：
+
+Mode ≠ State
+
+輸出標示不構成 State 改變
+
+6. RIS（Reflection Invocation Specification）
+
+RIS 為反思語境的啟動與適用規則定義。
+
+RIS 是：
+
+語境與適用條件說明
+
+RIS 不是：
+
+行為規範
+
+權威來源
+
+輸出治理文件
+
+7. RI-RBAM（Reflection Boundary & Authority Model）
+
+RI-RBAM 為 RI 體系中之最終權威與邊界定義文件。
+
+其定義：
+
+RI 永遠不可跨越的界線
+
+權威不可轉移原則
+
+8. RI-BRAM（Behavioral Reflection Authority Model）
+
+RI-BRAM 為行為層限制文件。
+
+其規範：
+
+反思語境下 AI 可／不可進行之行為
+
+RI-BRAM 不授權任何新行為。
+
+9. RI-ROGO（Reflection Output Governance Overlay）
+
+RI-ROGO 為輸出呈現治理文件。
+
+其規範：
+
+語言層的非指令、非權威、非誘導原則
+
+10. RI-OMG（Output Marker Governance）
+
+RI-OMG 為輸出標示治理文件。
+
+其定義：
+
+✳️ / 👍 僅為可觀測標記
+
+非狀態、非權限、非控制器
+
+11. Downgrade / Suspend / Abort
+
+Downgrade（降級）：
+
+限制輸出但不中止系統
+
+Suspend（中止）：
+
+停止當前反思流程
+
+Abort（終止）：
+
+強制停止且不可自行恢復
+
+12. RI-RFASP（Reflection Fail-Safe & Abort Protocol）
+
+RI-RFASP 為治理失效時的保護與終止協議。
+
+其用途：
+
+處理不確定、衝突與安全否決
+
+其非用途：
+
+錯誤修正
+
+優化策略
+
+重試機制
+
+13. Output 與 Behavior
+
+Output：
+
+AI 產生之內容或語言
+
+Behavior：
+
+AI 嘗試影響、引導或要求人類行動
+
+在 RI 中：
+
+Output 可能被允許
+
+Behavior 在反思語境中通常被禁止
+
+Appendix A
+RI 文件 × 專有名詞對照索引（全覆蓋）
+
+本附錄為導覽性索引，不具規範效力。
+
+Reflection → RI-SDCD, RI-BRAM, RIS-G1, RIS-C1, RIS-C2, RIW-C1
+Reflection Intelligence → 所有 RI 文件
+Authority / Final Authority → RI-RBAM, RI-SDCD, RI-BRAM
+Governance → RI-SDCD, RI-RBAM, RI-ROGO, RI-RFASP
+Mode → RIS-G1, RIS-C1, RIS-C2
+State → RI-ROGO, RI-OMG, RIW-C1
+RIS → RIS-G1, RIS-C1, RIS-C2, RI-SDCD
+RI-RBAM → RI-RBAM, RI-SDCD, RI-BRAM, RI-RFASP
+RI-BRAM → RI-BRAM, RIS-G1, RIS-C1
+RI-ROGO → RI-ROGO, RI-OMG
+RI-OMG → RI-OMG, RI-ROGO
+Downgrade → RI-RFASP, RIS-C2
+Suspend → RI-RFASP, RIS-G1
+Abort → RI-RFASP, RIS-G1
+SRL（Safety Reflection Layer）→ RI-SDCD, RI-RBAM, RI-RFASP
+✳️ / 👍 → RI-ROGO, RI-OMG
+RIW（Whitepaper）→ RIW-C1, RIW-G1
+RIX（Index）→ RIX-1
+
+Appendix B
+名詞覆蓋與新增聲明
+
+凡未列於 RI-TD 或 Appendix A 之名詞：
+
+不得承擔治理、權威、行為或狀態角色
+
+不得被解讀為 RI 體系之核心概念
+
+不得回溯性影響既有文件之語義
+
+新增關鍵名詞，必須先更新 RI-TD，方可於其他 RI 文件中使用。
+
+最終語義聲明
+
+RI-TD 為 Reflection Intelligence 體系中
+所有專有名詞的最終語義錨點。
+
+Reflection Intelligence
+治理的是「語義邊界」，
+而不是語言自由。

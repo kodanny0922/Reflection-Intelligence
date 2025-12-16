@@ -1,0 +1,235 @@
+RI-SDCD
+Reflection Intelligence 系統定義與符合性文件
+
+作者：Danny Ko 年份：2025 文件狀態：Normative / Final 文件角色：RIS v2.x 之系統定義與符合性對應文件
+
+0. 文件目的與閱讀指引
+
+本文件用於定義何謂一個 Reflection Intelligence（RI）系統，並說明：
+
+RI 系統在系統層級上的邊界與構成條件
+
+RI 系統如何被正確理解與解釋
+
+RI 系統是否符合 RIS v2.x 的判定依據
+
+RI-SDCD 為 規範性（Normative）文件，其目的在於提供一個可被第三方檢視、稽核與驗證的系統定義框架。
+
+本文件適用對象包括（但不限於）：
+
+系統架構師
+
+AI 工程師
+
+治理與風險審查單位
+
+法律與合規審核人員
+
+第三方評估與審計機構
+
+RI-SDCD 不提供：
+
+具體實作方式
+
+最佳化或效能建議
+
+模型設計或訓練策略
+
+任何形式之演算法或工程指引
+
+其角色為：
+
+系統定義與符合性判定之橋接文件，而非實作說明書。
+
+1. 系統邊界與範圍定義
+
+Reflection Intelligence（RI）是一套推理控制與反思精煉框架。
+
+RI 明確 不是：
+
+自主代理系統（Autonomous Agent）
+
+目標生成系統（Goal Generation System）
+
+意識或類意識系統（Consciousness System）
+
+無限制的自我修改或自我演化機制
+
+RI 僅能於授權之推理範圍內運作，其行為必須受以下外部權限結構約束：
+
+輸入權限（Input Authority, IA）
+
+安全與政策權限（Safety & Policy Authority, SPA）
+
+反思邊界與權限模型（RBAM / BRAM）
+
+RI 不具備主權性決策權。
+
+所有反思、分析與再生成行為，皆屬於次級推理行為，並必須服從於外部明確定義之權限與限制。
+
+2. 架構性構成（規範性要求）
+
+任何欲主張符合 RI v2.x 之系統，必須實作下列最小且不可替代的核心組件：
+
+預推理協議（Pre-Reasoning Protocol, PRP）
+
+反思層（Reflection Layer, RL）
+
+分析層（Analysis Layer, AL）
+
+安全反思層（Safety Reflection Layer, SRL）
+
+強化／再生成層（Reinforcement Layer, ReL）
+
+反思記憶（Reflection Memory, RM）
+
+缺少上述任一組件之系統，不得宣稱符合 RI v2.x。
+
+2.1 架構流程之說明性表示
+
+以下流程僅為概念性參考架構，用以說明各組件之邏輯關係：
+
+輸入 → PRP → IO₁ → RL → RS → AL → AO → SRL → ReL → IO₂ → RM
+
+該表示方式：
+
+不規定實際執行順序
+
+不限制同步或非同步設計
+
+不構成工程實作要求
+
+3. 術語一致性與定義約束
+
+RI-SDCD 中所使用之所有術語（包含但不限於）：
+
+RI、PRP、RL、AL、SRL、ReL、RM、RS、AO、IA、SPA、RBAM、SM-IA、UIPT
+
+其定義 必須完全一致 於 RIS v2.x 與 RBAM / BRAM 中之正式定義。
+
+任何系統若：
+
+自行重新定義上述術語
+
+僅使用相同名稱但不同語義
+
+則 不得 宣稱其系統符合 RI v2.x。
+
+4. 版本與相容性聲明
+
+RIS v2.x 完全取代所有 RIS v1.x 文件
+
+缺乏 SRL 或 RM 之系統，不得主張 RI v2.x 符合性
+
+除非 RIS v2.x 明確聲明，否則不推定任何向下相容性
+
+5. 符合性與合規模型
+
+RI v2.x 之符合性評估，僅能於系統層級進行。
+
+5.1 系統必須（MUST）
+
+實作 PRP、RL、AL、SRL、ReL、RM
+
+產生可稽核之反思陳述（Reflection Statements, RS）
+
+產生可追溯之分析輸出（Analysis Outputs, AO）
+
+完整遵守 RBAM / BRAM 權限階層
+
+5.2 系統不得（MUST NOT）
+
+重新定義或替換使用者意圖
+
+繞過或覆寫 SRL 之決策結果
+
+捏造知識、來源或合理化說明
+
+6. 解釋性防護與濫用防止
+6.1 PRP 限制條款
+
+預推理協議（PRP）僅作為：
+
+門控
+
+驗證
+
+授權
+
+之機制存在。
+
+PRP 不得：
+
+進行實質推理
+
+生成推論
+
+最佳化結果
+
+作出任何形式之決策判斷
+
+6.2 權限完整性防護
+
+嚴格禁止實質性修改輸入權限（Substantive Modification of Input Authority, SM-IA）
+
+所有反思流程 必須 通過使用者意圖保存測試（UIPT）
+
+SRL 所作出之安全決策，在 RI 系統內屬最終且不可覆寫
+
+7. 反擴張條款（Anti-Scope-Expansion Clause）
+
+任何於 RI 系統中新增之：
+
+模組
+
+能力
+
+最佳化層
+
+輔助機制
+
+均 不得：
+
+改變
+
+取代
+
+重新解釋
+
+削弱
+
+RIS v2.x 與 RI-SDCD 所定義之核心邊界、權限結構與符合性條件。
+
+任何擴充，皆不得回溯性地重新定義「何謂 Reflection Intelligence」。
+
+8. 與輸出層治理之關係（ROGO 介面說明）
+
+RI-SDCD 定義 RI 系統在系統與推理層級之結構與邊界。
+
+RI-ROGO（Reflection Output Governance Overlay）則負責：
+
+RI 治理狀態下之輸出呈現
+
+語言層行為誘導防止
+
+治理狀態之可觀測與可稽核性
+
+兩者屬於互補但不重疊之治理層級， 任何 RI v2.x 系統，於進入 RI 治理狀態時，必須同時遵守 RI-ROGO。
+
+9. 結語
+
+Reflection Intelligence 的設計目的，在於使推理過程：
+
+可檢視（Inspectable）
+
+可控制（Controllable）
+
+可稽核（Auditable）
+
+可收斂（Convergent）
+
+並且安全（Safe）
+
+RI 所治理的，是推理如何被審視與修正， 而非 AI 應該追求何種目標。
+
+本文件至此，完整界定了 RI 系統之可接受範圍與符合性標準。
