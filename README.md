@@ -31,33 +31,29 @@
 > 📌 提示  
 > - 規範性文件（Normative）會影響系統行為  
 > - 說明性文件（Whitepaper / Index）僅用於理解，不具約束力  
-## 🧭 Repository Structure Overview
-
-> 本區塊為 **純文字（TXT）目錄結構示意**，  
-> 僅用於說明專案檔案的實際配置位置，  
-> 不構成文件索引、規範定義或治理層級說明。
+ 
+ ##🧭  RI檔案分層四大類 RORE, governance , specification , whitepaper
 
 ```text
-Reflection-Intelligence/
-├─ README.md
-│
-├─ core/
+│ 
+│ 
+├─ core
 │  ├─ RI-TD.txt
 │  ├─ RI-RBAM.txt
 │  └─ RI-SDCD.txt
 │
-├─ governance/
+├─ governance
 │  ├─ RI-BRAM.txt
 │  ├─ RI-RFASP.txt
 │  ├─ RI-ROGO.txt
 │  └─ RI-OMG.txt
 │
-├─ specification/
+├─ specification
 │  ├─ RIS-G1.txt
 │  ├─ RIS-C1.txt
 │  └─ RIS-C2.txt
 │
-└─ whitepaper/
+└─ whitepaper
    ├─ RIW-G1.txt
    └─ RIW-C1.txt
 
