@@ -31,34 +31,33 @@
 > 📌 提示  
 > - 規範性文件（Normative）會影響系統行為  
 > - 說明性文件（Whitepaper / Index）僅用於理解，不具約束力  
-
----
-
 ## 🧭 Repository Structure Overview
+
+> 本區塊為 **純文字（TXT）目錄結構示意**，  
+> 僅用於說明專案檔案的實際配置位置，  
+> 不構成文件索引、規範定義或治理層級說明。
 
 ```text
 Reflection-Intelligence/
 ├─ README.md
-├─ FILE_INDEX.md   ←（本文件）
 │
 ├─ core/
-│  ├─ RI-TD.md
-│  ├─ RI-RBAM.md
-│  └─ RI-SDCD.md
+│  ├─ RI-TD.txt
+│  ├─ RI-RBAM.txt
+│  └─ RI-SDCD.txt
 │
 ├─ governance/
-│  ├─ RI-BRAM.md
-│  ├─ RI-RFASP.md
-│  ├─ RI-ROGO.md
-│  └─ RI-OMG.md
+│  ├─ RI-BRAM.txt
+│  ├─ RI-RFASP.txt
+│  ├─ RI-ROGO.txt
+│  └─ RI-OMG.txt
 │
 ├─ specification/
-│  ├─ RIS-G1.md
-│  ├─ RIS-C1.md
-│  └─ RIS-C2.md
+│  ├─ RIS-G1.txt
+│  ├─ RIS-C1.txt
+│  └─ RIS-C2.txt
 │
 └─ whitepaper/
-   ├─ RIW-G1.md
-   └─ RIW-C1.md
-
+   ├─ RIW-G1.txt
+   └─ RIW-C1.txt
 
