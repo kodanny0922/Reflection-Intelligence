@@ -1,8 +1,6 @@
 ## 👉 What is Reflection Intelligence (RI)
 
-**Reflection Intelligence（RI) : 反思智能 
-
-RI 再英文的直接翻譯 確實是 "反思智能" 或"反思" 
+Reflection Intelligence (RI) 直接翻譯 確實是 "反思智能" 或"反思" 
 
 👉 可是 我覺得 這種解釋 在我的RI系統 並不是完全正確的, 為什麼呢?
 「反思」通常隱含：
