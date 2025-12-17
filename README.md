@@ -91,22 +91,25 @@ Reflection-Intelligence/
 ├─ governance/ # RI 行為與輸出治理
 ├─ specification/ # RI 模式與應用規格
 ├─ whitepaper/ # 說明性白皮書
-├─ README.md
+├─ README.md # 專案總覽與核心定義
 ├─ FILE_INDEX.md # RI 檔案說明
-└─ RIX-1.txt # RI 文件索引與導覽
+└─ RIX-1.txt # RI 文件索引與閱讀導覽
+
 
 
 ---
 
 ## How to Read These Documents
 
-1. `RIX-1.txt` — 起始閱讀導覽  
-2. `RI-TD.txt` — RI 的語義定義  
-3. `RI-RBAM.txt` — 權威與不可逾越的邊界  
-4. 規範性文件（Governance / Specification）依需求閱讀  
-5. 白皮書（Whitepaper）輔助理解理念
+If you are new to RI, the recommended reading order is:
 
----
+1. **README.md** — Overview and core definition of RI  
+2. **RIX-1.txt** — Document index and reading guide  
+3. **core/** — Semantic definitions and non-negotiable boundaries  
+4. **governance/** — Behavioral and output governance rules  
+5. **specification/** — RI modes and application specifications  
+6. **whitepaper/** — Conceptual background and explanatory notes
+
 
 ## About This Project
 
