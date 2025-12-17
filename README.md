@@ -10,7 +10,7 @@ RI 關心的不是 AI 能否做出更好的判斷，
 
 ## What does it mean to be a framework?
 
-RI 是一種 **framework（架構）**，而不是模型、功能或倫理系統。
+RI 是一種 **framework（框架）**，而不是模型、功能或倫理系統。
 
 作為比喻，Asimov 的「機器人三大法則」本身也是一種框架：  
 它不是一個具體行為，而是一組用來約束行為邊界的設計假設。
