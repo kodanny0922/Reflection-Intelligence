@@ -1,7 +1,6 @@
 ## 👉 What is Reflection Intelligence (RI)
 
-**Reflection Intelligence（RI，反思智能）**  
-是一種用來**限制 AI 判斷行為的回應模式**。
+**Reflection Intelligence（RI) : 反思智能 
 
 RI 再英文的直接翻譯 確實是 "反思智能" 或"反思" 
 
