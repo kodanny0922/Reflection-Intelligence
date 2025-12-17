@@ -86,7 +86,7 @@ RI 的架構約束可用三條簡短原則表示：
 ---
 
 ## Repository Structure
-''''text
+```text
 Reflection-Intelligence/
 ├─ core/ # 核心語義與邊界定義
 ├─ governance/ # RI 行為與輸出治理
@@ -96,7 +96,7 @@ Reflection-Intelligence/
 ├─ FILE_INDEX.md # RI 檔案說明
 └─ RIX-1.txt # RI 文件索引與閱讀導覽
 
-'''
+```
 
 ---
 
