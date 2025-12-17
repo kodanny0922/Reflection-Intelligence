@@ -86,6 +86,7 @@ RI 的架構約束可用三條簡短原則表示：
 ---
 
 ## Repository Structure
+''''text
 Reflection-Intelligence/
 ├─ core/ # 核心語義與邊界定義
 ├─ governance/ # RI 行為與輸出治理
