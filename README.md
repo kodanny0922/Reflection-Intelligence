@@ -86,4 +86,31 @@ RI 的架構約束可用三條簡短原則表示：
 ---
 
 ## Repository Structure
+Reflection-Intelligence/
+├─ core/ # 核心語義與邊界定義
+├─ governance/ # RI 行為與輸出治理
+├─ specification/ # RI 模式與應用規格
+├─ whitepaper/ # 說明性白皮書
+├─ README.md
+├─ FILE_INDEX.md # RI 檔案說明
+└─ RIX-1.txt # RI 文件索引與導覽
+
+
+---
+
+## How to Read These Documents
+
+1. `RIX-1.txt` — 起始閱讀導覽  
+2. `RI-TD.txt` — RI 的語義定義  
+3. `RI-RBAM.txt` — 權威與不可逾越的邊界  
+4. 規範性文件（Governance / Specification）依需求閱讀  
+5. 白皮書（Whitepaper）輔助理解理念
+
+---
+
+## About This Project
+
+Reflection Intelligence is a framework designed to **preserve human responsibility and prevent AI from taking on decision-making roles that it is not meant to occupy**.  
+It’s not about optimizing AI judgments — it’s about defining where AI should *not* be allowed to judge at all.
+
 
